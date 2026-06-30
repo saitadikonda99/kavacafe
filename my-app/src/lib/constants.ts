@@ -6,58 +6,58 @@ export const SLIDES: Slide[] = [
   {
     label: "WELCOME TO KAVA CAFE",
     title: "FINE\nDINING",
-    sub: "Step into a world of exceptional flavours, crafted with passion and served with warmth. Your perfect dining experience awaits.",
+    sub: "Vijayawada's most beloved premium cafe — where European craft meets South Indian warmth. Every visit is an experience.",
     img: "/cafe.png",
     local: true,
   },
   {
-    label: "RARE & DELICIOUS",
-    title: "SEA\nFOOD",
-    sub: "Sourced fresh from coastal waters each morning, our seafood dishes celebrate the purest flavours of the ocean — simply prepared, memorably served.",
+    label: "FRESHLY BAKED DAILY",
+    title: "ARTISAN\nBAKERY",
+    sub: "From our signature chocolate cube croissants to Biscoff pastries — baked fresh every morning with the finest ingredients.",
     img: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1400&q=80",
   },
   {
-    label: "OUR EXPERTISE",
-    title: "EXOTIC\nDISHES",
-    sub: "Crafted by world-renowned chefs for an unforgettable culinary experience that awakens every sense.",
+    label: "EUROPEAN & INDIAN FUSION",
+    title: "EXOTIC\nFLAVOURS",
+    sub: "Crafted by passionate chefs blending European techniques with South Indian soul — an unforgettable culinary journey.",
     img: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&q=80",
   },
 ];
 
 export const MENU_LEFT: MenuItem[] = [
-  { name: "PRAWN MASALA",         price: "$ 120", desc: "Tiger prawns in a rich coastal spice blend", star: true },
-  { name: "GRILLED FISH CURRY",   price: "$ 95",  desc: "Fresh catch in a tangy coconut gravy",       star: false },
-  { name: "SQUID PEPPER FRY",     price: "$ 85",  desc: "Crispy squid tossed with black pepper",      star: false },
-  { name: "LOBSTER THERMIDOR",    price: "$ 170", desc: "Whole lobster with herb-cream sauce",        star: true },
-  { name: "CRAB BUTTER GARLIC",   price: "$ 140", desc: "Mud crab sautéed in garlic butter",          star: false },
+  { name: "SEAFOOD PIZZA",           price: "₹ 320", desc: "Fresh fish & tiger prawns on hand-tossed dough, house tomato sauce",  star: true },
+  { name: "RED SAUCE SPAGHETTI",     price: "₹ 220", desc: "Classic marinara with fresh basil and aged parmesan",                  star: false },
+  { name: "WHITE SAUCE PASTA",       price: "₹ 200", desc: "Creamy béchamel tossed with seasonal vegetables",                      star: false },
+  { name: "THREADED PANEER",         price: "₹ 180", desc: "Paneer wrapped in ultra-thin dough threads, crispy fried",             star: true },
+  { name: "PALAK PANEER QUESADILLA", price: "₹ 160", desc: "Crispy rotis filled with creamy palak paneer and spices",              star: false },
 ];
 
 export const MENU_RIGHT: MenuItem[] = [
-  { name: "COCONUT PANNA COTTA",  price: "$ 80",  desc: "Silky coconut cream with mango coulis",     star: false },
-  { name: "DARK CHOCOLATE TART",  price: "$ 90",  desc: "Bitter chocolate ganache, sea salt crust",  star: true },
-  { name: "CARDAMOM KHEER",       price: "$ 75",  desc: "Slow-cooked rice pudding, saffron milk",    star: false },
-  { name: "GULAB JAMUN",          price: "$ 70",  desc: "Rose syrup dumplings, pistachio cream",     star: false },
-  { name: "CHEF'S DESSERT",       price: "$ 110", desc: "Seasonal creation from our pastry team",    star: true },
+  { name: "CHOCOLATE CUBE CROISSANT", price: "₹ 120", desc: "Our house specialty — dark chocolate layered inside a flaky croissant", star: true },
+  { name: "BISCOFF CROISSANT",        price: "₹ 110", desc: "Fresh croissant with lotus Biscoff spread and crunchy crumble",        star: false },
+  { name: "DEVIL'S BROWNIE",          price: "₹ 110", desc: "Fudgy dark chocolate brownie served warm with vanilla cream",           star: false },
+  { name: "CRÈME BRÛLÉE",             price: "₹ 140", desc: "Classic vanilla custard with a perfectly caramelised sugar crust",     star: true },
+  { name: "RUSSIAN MEDOWICH",         price: "₹ 160", desc: "Delicate layered honey cake with fresh whipped cream",                 star: false },
 ];
 
 export const TIMELINE: TimelineItem[] = [
-  { year: "1989", title: "THE BEGINNINGS", desc: "A small outdoor cafe opens in Hyderabad, built on a love for fresh coastal food.",         pos: "below" },
-  { year: "1995", title: "FIRST AWARD",    desc: "Kava Cafe wins Best New Restaurant at the South India Food Awards.",                        pos: "above" },
-  { year: "2001", title: "NEW LOCATION",   desc: "We move to our current home — a lush garden space with open-air dining.",                  pos: "below" },
-  { year: "2010", title: "CHEF'S VISION",  desc: "Our head chef joins and introduces the signature coastal tasting menu.",                    pos: "above" },
-  { year: "2024", title: "MODERN KAVA",    desc: "A full renovation brings the iconic red gate and geometric brand to life.",                 pos: "below" },
+  { year: "2019", title: "THE BEGINNING",   desc: "Kava Cafe opens its doors in Labbipet, Vijayawada, with a bold vision for premium coffee and artisan food.",    pos: "below" },
+  { year: "2020", title: "EARNED TRUST",    desc: "Through the toughest year, Kava Cafe won the loyalty of Vijayawada's food lovers with consistent quality.",     pos: "above" },
+  { year: "2021", title: "CITY FAVOURITE",  desc: "Recognised as the best coffee shop in Vijayawada by local food communities and lifestyle publications.",         pos: "below" },
+  { year: "2022", title: "FUSION MENU",     desc: "Launched our signature European–Indian fusion dishes including the iconic Seafood Pizza and pastry line.",       pos: "above" },
+  { year: "2024", title: "4.2★ ON GOOGLE",  desc: "Over 945 five-star reviews and counting — a landmark destination in Andhra Pradesh's dining scene.",            pos: "below" },
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
   {
-    quote: "THE LOBSTER THERMIDOR WAS UNLIKE ANYTHING I HAVE TASTED. KAVA CAFE SETS A NEW STANDARD FOR COASTAL FINE DINING IN THE CITY.",
-    author: "PAULINE PARKS",
-    role: "Food Critic",
+    quote: "THE CHOCOLATE CUBE CROISSANT IS UNLIKE ANYTHING I HAVE TASTED IN VIJAYAWADA. KAVA CAFE SETS A NEW STANDARD FOR PREMIUM CAFES IN THE CITY.",
+    author: "ANANYA REDDY",
+    role: "Food Blogger, Vijayawada",
   },
   {
-    quote: "EVERY DETAIL — FROM THE GARDEN SETTING TO THE LAST DESSERT — FELT CONSIDERED AND MEMORABLE. A TRULY SPECIAL DINING EXPERIENCE.",
-    author: "KIEREN BURNETT",
-    role: "Gourmet Magazine",
+    quote: "FROM THE SWING SEATS TO THE LAST BITE OF CRÈME BRÛLÉE — EVERY DETAIL FELT THOUGHTFULLY CURATED. AN ABSOLUTE MUST-VISIT CAFE IN ANDHRA PRADESH.",
+    author: "KIRAN KUMAR",
+    role: "Gourmet Traveller",
   },
 ];
 
@@ -71,16 +71,16 @@ export const IG_IMAGES = [
 ] as const;
 
 export const PARTNERS = [
-  "Natural Hand Made",
-  "Classical Signature",
-  "Sauvignon Blanc",
-  "Olive & Co.",
-  "Olives Ltd.",
-  "Premium M",
+  "Manor Food Plaza",
+  "Andhra Spice Co.",
+  "Fresh Bake Supply",
+  "Vijayawada Dairy",
+  "Coastal Harvest",
+  "Krishna Organics",
 ] as const;
 
 export const FOOTER_LINKS = [
-  "Our Story", "The Menu", "Reservations", "Private Dining", "Gift Cards", "Gallery", "Press",
+  "Our Story", "The Menu", "Reservations", "Our Bakery", "Events", "Gallery", "Contact",
 ] as const;
 
 export const SOCIALS: SocialLink[] = [

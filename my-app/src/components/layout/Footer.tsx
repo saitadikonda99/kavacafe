@@ -105,7 +105,7 @@ export function Footer() {
             </h4>
             <address style={{ fontStyle: "normal", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
               <p style={{ ...sans, color: "rgba(255,255,255,0.4)", fontSize: "0.84rem", lineHeight: 1.85, margin: 0 }}>
-                116 Irvington Ave<br />NJ 07079, USA
+                Jasti Venkata Ratnam St<br />Opposite Manor Food Plaza<br />Labbipet, Vijayawada<br />Andhra Pradesh 520010
               </p>
               <a
                 href="tel:+18916688999"
@@ -130,7 +130,7 @@ export function Footer() {
                   Hours
                 </p>
                 <p style={{ ...sans, color: "rgba(255,255,255,0.4)", fontSize: "0.84rem", lineHeight: 1.85, margin: 0 }}>
-                  Mon – Fri: 12pm – 11pm<br />Sat – Sun: 11am – 12am
+                  Mon & Sat: 7am – 11pm<br />Tue – Fri & Sun: 10am – 11pm
                 </p>
               </div>
             </address>

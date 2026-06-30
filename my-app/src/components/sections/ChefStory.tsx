@@ -22,7 +22,7 @@ export function ChefStory() {
                 marginBottom: "1.5rem",
               }}
             >
-              The Chef&apos;s<br />Secrets
+              Born in<br />Vijayawada
             </h2>
             <p
               style={{
@@ -33,7 +33,7 @@ export function ChefStory() {
                 marginBottom: "1.25rem",
               }}
             >
-              Each dish at Kava Cafe begins with a simple obsession: the finest ingredients, treated with the deepest respect. Our head chef brings decades of experience to every plate, transforming fresh coastal seafood into extraordinary experiences.
+              Founded in 2019, Kava Cafe began with one simple belief — that Vijayawada deserved a world-class cafe experience. Nestled in the heart of Labbipet, we set out to blend European artisan techniques with the bold, vibrant flavours of South India.
             </p>
             <p
               style={{
@@ -44,7 +44,7 @@ export function ChefStory() {
                 marginBottom: "2.5rem",
               }}
             >
-              From the morning catch to the evening service, we partner with local fishermen and artisan producers to ensure every ingredient tells a story of provenance and passion.
+              From our signature chocolate cube croissants baked fresh every morning to our Seafood Pizza crafted with the finest coastal catch — every dish at Kava Cafe is made with obsessive care. Rated 4.2★ on Google with over 945 reviews, we are proud to be the city&apos;s most beloved premium cafe.
             </p>
             <a
               href="#menu"
