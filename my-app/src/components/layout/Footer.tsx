@@ -108,12 +108,12 @@ export function Footer() {
                 116 Irvington Ave<br />NJ 07079, USA
               </p>
               <a
-                href="tel:+4466789011"
+                href="tel:+18916688999"
                 style={{ ...sans, color: "rgba(255,255,255,0.4)", fontSize: "0.84rem", textDecoration: "none", transition: "color 0.3s" }}
                 onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = P.gold)}
                 onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.4)")}
               >
-                +44 66 789 011
+                891 668 8999
               </a>
               <div>
                 <p

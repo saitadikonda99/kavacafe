@@ -79,7 +79,7 @@ export function Header() {
 
         {/* Phone – pushed to the right */}
         <a
-          href="tel:+4466789011"
+          href="tel:+18916688999"
           className="hidden md:block"
           style={{
             ...sans,
@@ -91,7 +91,7 @@ export function Header() {
             marginLeft: "auto",
           }}
         >
-          +44 66 789 011
+          891 668 8999
         </a>
 
         {/* Hamburger */}
