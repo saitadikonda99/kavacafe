@@ -108,7 +108,7 @@ export function Header() {
             flexDirection: "column",
             justifyContent: "center",
             gap: "5px",
-            marginLeft: "1rem",
+            marginLeft: "auto",
           }}
         >
           {[0, 1, 2].map((i) => (
