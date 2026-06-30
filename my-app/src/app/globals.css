@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+:root {
+  --green:   rgb(39, 59, 39);
+  --green2:  rgb(39, 59, 39);;
+  --cream:   #e4dcd2;
+  --gold:    #b8965a;
+  --white:   #ffffff;
+  --charcoal:#1a1a1a;
+}
+
+@theme inline {
+  --color-green:   #263830;
+  --color-cream:   #e4dcd2;
+  --color-gold:    #b8965a;
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans:  var(--font-raleway), Helvetica, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--cream);
+  color: var(--charcoal);
+  font-family: var(--font-raleway), Helvetica, sans-serif;
+}
+
+/* ── Animations ─────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── Booking inputs ──────── */
+.b-select {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.18);
+  color: rgba(255,255,255,0.85);
+  padding: 0.85rem 1.25rem;
+  font-family: var(--font-raleway), sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='rgba(255,255,255,0.5)' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  padding-right: 2.5rem;
+}
+.b-select option {
+  background: var(--green);
+  color: rgba(255,255,255,0.9);
+}
+
+/* ── Instagram hover ─────── */
+.ig-item:hover .ig-overlay { opacity: 1 !important; }
+.ig-item:hover .ig-img      { transform: scale(1.07); }
+
+/* ── Instagram grid ──────── */
+.instagram-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+@media (max-width: 640px) {
+  .instagram-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ── Timeline ────────────── */
+@media (max-width: 768px) {
+  .tl-grid { flex-direction: column !important; }
+  .tl-line { display: none !important; }
+}
+
+/* ── Layout grids ────────── */
+
+/* Hero two-column split */
+.hero-split {
+  display: grid;
+  grid-template-columns: 38% 62%;
+}
+@media (max-width: 768px) {
+  .hero-split { grid-template-columns: 1fr; }
+  .hero-img-panel { display: none; }
+}
+
+/* Chef story two-column */
+.chef-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .chef-grid { grid-template-columns: 1fr; gap: 3rem; }
+}
+
+/* Menu three-column (arch + 2 menu cols) */
+.menu-grid {
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+@media (max-width: 1024px) {
+  .menu-grid { grid-template-columns: 1fr 1fr; gap: 3rem; }
+  .menu-arch { display: none; }
+}
+@media (max-width: 640px) {
+  .menu-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+}
+
+/* Footer three-column */
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 4rem;
+  padding-bottom: 4rem;
+}
+@media (max-width: 900px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 3rem; }
+}
+@media (max-width: 600px) {
+  .footer-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+}
+
+/* Booking strip */
+.booking-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.booking-fields {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .booking-inner { flex-direction: column; align-items: flex-start; }
+  .booking-fields { width: 100%; }
+}
+
+/* Partners row */
+.partners-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+/* ── Scrollbar ───────────── */
+::-webkit-scrollbar       { width: 4px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 2px; }
